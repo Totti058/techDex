@@ -1,8 +1,8 @@
 const dinos = [
     {
         name: 'Tek Rex',
-        type: 'carnicoro',
-        map: 'The Island',
+        tipo: 'carnicoro',
+        comida: 'Carne cruda , Carne De Primera, lienzo',
         tameo: "Knockout con dardos tranquilizantes",
         peligro: "Alto",
         imagen: ""
@@ -13,7 +13,7 @@ const dinos = [
         comida: "Carne cruda",
         tameo: "Knockout con flechas tranquilizantes",
         peligro: "Medio",
-        imagen: "assets/img/tek-raptor.png"
+        imagen: ""
     },
     {
         nombre: "Tek Stego",
@@ -21,7 +21,7 @@ const dinos = [
         comida: "Bayas y verduras",
         tameo: "Knockout con dardos o flechas tranquilizantes",
         peligro: "Bajo",
-        imagen: "assets/img/tek-stego.png"
+        imagen: ""
     },
     {
         nombre: "Tek Parasaur",
@@ -29,7 +29,7 @@ const dinos = [
         comida: "Bayas",
         tameo: "Knockout con flechas tranquilizantes",
         peligro: "Bajo",
-        imagen: "assets/img/tek-parasaur.png"
+        imagen: ""
     },
     {
         nombre: "Tek Quetzal",
@@ -37,6 +37,6 @@ const dinos = [
         comida: "Verduras y bayas",
         tameo: "Knockout mientras vuela (desde otro dino volador)",
         peligro: "Medio",
-        imagen: "assets/img/tek-quetzal.png"
+        imagen: ""
     },
 ]
