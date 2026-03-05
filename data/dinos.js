@@ -1,6 +1,6 @@
 const dinos = [
     {
-        name: 'Tek Rex',
+        nombre: 'Tek Rex',
         tipo: 'carnicoro',
         comida: 'Carne cruda , Carne De Primera, lienzo',
         tameo: "Knockout con dardos tranquilizantes",
