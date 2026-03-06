@@ -24,4 +24,4 @@ HTML5 · CSS3 · JavaScript (Vanilla) · Git · Netlify
 ## Desarrollo
 
 ```bash
-git clone <https://github.com/TU-USUARIO/techDex.git>
+git clone <https://github.com/Totti058/techDex.git>
