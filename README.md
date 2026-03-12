@@ -21,7 +21,14 @@ El renderizado se realiza mediante funciones puras que actualizan el DOM según 
 
 HTML5 · CSS3 · JavaScript (Vanilla) · Git · Netlify
 
-## Desarrollo
+## 🚀 Demo en línea
+
+Puedes ver el proyecto funcionando aquí:  
+[🔗 TekDex en Netlify](https://tekdex.netlify.app/)
+
+Este enlace te lleva a la versión desplegada del Dex, donde podrás explorar las criaturas Tek de ARK con su información detallada.
+
+
 
 ```bash
 git clone <https://github.com/Totti058/techDex.git>
