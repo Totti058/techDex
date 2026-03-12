@@ -1,7 +1,7 @@
 const dinos = [
     {
         nombre: 'Tek Rex',
-        tipo: 'carnicoro',
+        tipo: 'carnivoro',
         comida: 'Carne cruda , Carne De Primera, lienzo',
         tameo: "Knockout con dardos tranquilizantes",
         peligro: "Alto",
@@ -10,7 +10,7 @@ const dinos = [
     {
         nombre: "Tek Raptor",
         tipo: "Carnívoro",
-        comida: "Carne cruda",
+        comida: "Carne cruda, Carne De Primera, lienzo",
         tameo: "Knockout con flechas tranquilizantes",
         peligro: "Medio",
         imagen: "/assets/images/Tekrraptor.jpg"
@@ -33,8 +33,8 @@ const dinos = [
     },
     {
         nombre: "Tek Quetzal",
-        tipo: "Herbívoro",
-        comida: "Verduras y bayas",
+        tipo: "omnívora",
+        comida: "Verduras , Bayas , Carne cruda, Carne De Primera, lienzo",
         tameo: "Knockout mientras vuela (desde otro dino volador)",
         peligro: "Medio",
         imagen: "/assets/images/quetzal tek.jpg"
