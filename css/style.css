@@ -1,18 +1,10 @@
-/* GOOGLE FONT */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-
-/* RESET */
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
-
-/* BASE */
 
 body{
     font-family: 'Inter', sans-serif;
@@ -21,17 +13,11 @@ body{
     line-height:1.6;
 }
 
-
-/* CONTAINER */
-
 .container{
     width:90%;
     max-width:1200px;
     margin:0 auto;
 }
-
-
-/* HEADER */
 
 .header{
     background:#020617;
@@ -45,17 +31,15 @@ body{
     padding:20px 0;
 }
 
-
-/* LOGO */
-
 .logo h1{
     font-size:24px;
     font-weight:700;
     color:#22c55e;
 }
 
-
-/* NAVBAR */
+a{
+    text-decoration: none;
+}
 
 .nav-list{
     display:flex;
@@ -63,18 +47,13 @@ body{
 }
 
 .nav-list a{
-    font-size:16px;
-    font-weight:500;
-    color:#e5e7eb;
-    transition:0.3s;
+    color: white;
+    transition: color 0.3s ease;
 }
 
 .nav-list a:hover{
-    color:#22c55e;
+    color: #22c55e;
 }
-
-
-/* HERO */
 
 .hero{
     padding:80px 0;
@@ -96,9 +75,6 @@ body{
     color:#cbd5f5;
 }
 
-
-/* HERO BUTTON */
-
 .hero-button{
     display:inline-block;
     padding:14px 28px;
@@ -113,9 +89,6 @@ body{
     background:#16a34a;
 }
 
-
-/* DINOS SECTION */
-
 .dinos-origin{
     padding:80px 0;
 }
@@ -129,9 +102,6 @@ body{
     margin-bottom:20px;
     max-width:800px;
 }
-
-
-/* MAIN BUTTON */
 
 .button-container{
     margin-top:30px;
@@ -151,18 +121,12 @@ body{
     background:#16a34a;
 }
 
-
-/* GRID DINOS */
-
 .dino-cards{
     margin-top:40px;
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
     gap:30px;
 }
-
-
-/* DINO CARD */
 
 .dino-card{
     background:#020617;
@@ -177,21 +141,13 @@ body{
     border-color:#22c55e;
 }
 
-
-/* IMAGE */
-
 .dino-card img{
     width:100%;
-    /* limit height to avoid very tall/high-res images stretching the card */
     max-height:200px;
     height:auto;
-    /* keep the whole dinosaur visible rather than cropping it */
     object-fit:contain;
-    background-color:#020617; /* dark background for empty space if any */
+    background-color:#020617; 
 }
-
-
-/* CARD INFO */
 
 .dino-info{
     padding:20px;
@@ -206,9 +162,6 @@ body{
     font-size:14px;
     margin-bottom:6px;
 }
-
-
-/* FOOTER */
 
 .footer{
     margin-top:80px;
